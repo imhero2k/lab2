@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       run_job:
-        description: 'run speific job for'
+        description: 'Run Specific Job'
         type: boolean
         required: false
       custom_message:
