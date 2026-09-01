@@ -20,5 +20,5 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "printing the custom message"
+      - run: echo "Printing custom message"
       - run: echo "${{ github.event.inputs.custom_message }}"
